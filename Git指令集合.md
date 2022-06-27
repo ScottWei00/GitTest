@@ -92,3 +92,17 @@
    1. git pull orgin 分支名
 
 [Git教程链接](https://www.jb51.net/article/191350.htm#_label5)
+
+[filter "lfs"]
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+[user]
+	name = "ScottWei00"
+	email = "981702664@qq.com"
+
+
+ssh-keygen -t rsa -C xxx@xxx(自己的邮箱地址)
+
+
